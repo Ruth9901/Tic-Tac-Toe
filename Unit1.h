@@ -12,7 +12,7 @@
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
-__published:	// IDE-managed Components
+__published:// IDE-managed Components
 	TButton *Button1;
 	TButton *Button2;
 	TButton *Button3;
@@ -22,7 +22,7 @@ __published:	// IDE-managed Components
 	TButton *Button7;
 	TButton *Button8;
 	TButton *Button9;
-	TLabel *Label1;
+	TLabel *Label1
 	TLabel *currentPlayerSymbolLabel;
 	TLabel *winnerLabel;
 	void __fastcall ButtonClick(TObject *Sender);
